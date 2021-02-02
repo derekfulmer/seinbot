@@ -23,8 +23,8 @@ async def on_member_join(member):
 async def on_message(message):
 	if message.author == client.user:
 		return
-
-    # Turn this into a DB look up.
+    
+    # Could this be turned into a database look up?
 	sein_quotes = [
 		'Looking at cleavage is like looking at the sun.',
 		'But, I don\'t wanna be a pirate!',
